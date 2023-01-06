@@ -23,7 +23,7 @@ python download_slides_slideshare.py --target_dir TARGET_DIR --split SPLIT --sle
 ## 2. OCR (Google Cloud Vision API)
 Google Cloud Vision API is a paid OCR software, and we used the OCR resutls obtained from this OCR software in our main experiments.
 
-Before running OCR scripts, you should obtain an API key through the [Google Cloud Platform](https://cloud.google.com/). To get one visit the [link](https://cloud.google.com/vision/docs/quickstart)
+Before running OCR scripts, you should obtain an API key through the [Google Cloud Platform](https://cloud.google.com/). To get one visit the [link](https://cloud.google.com/vision/docs/quickstart).
 ```
 python extract_ocr_visionAPI.py --image_dir IMAGE_DIR --save_dir SAVE_DIR --split SPLIT
 ```

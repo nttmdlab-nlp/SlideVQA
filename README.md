@@ -10,7 +10,7 @@ This repository includes the SlideVQA dataset introduced by the following paper:
 ```
 pip install -r requirements.txt
 ```
-For users who wants to extract OCR with Tesseract, please install [Google Tesseract OCR](https://github.com/tesseract-ocr/tesseract).
+For users who want to extract OCR with Tesseract, please install [Google Tesseract OCR](https://github.com/tesseract-ocr/tesseract).
 
 
 # Get Started

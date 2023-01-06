@@ -3,6 +3,8 @@ This includes an SlideVQA dataset of Ryota Tanaka, Kyosuke Nishida, Kosuke Nishi
 
 > We introduce a new document VQA dataset, SlideVQA, for tasks wherein given a slide deck composed of multiple slide images and a corresponding question, a system selects a set of evidence images and answers the question.
 
+![Figure 1 from paper](example.png)
+
 
 # Software installation
 ```

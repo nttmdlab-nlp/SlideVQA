@@ -1,5 +1,5 @@
 # SlideVQA
-This includes an SlideVQA dataset of Ryota Tanaka, Kyosuke Nishida, Kosuke Nishida, Taku Hasegawa, Itsumi Saito, and Kuniko Saito. "A Dataset for Document Visual Question Answering on Multiple Images". In Proc. of AAAI. 2023.
+This repository includes the SlideVQA dataset introduced by the following paper. Ryota Tanaka, Kyosuke Nishida, Kosuke Nishida, Taku Hasegawa, Itsumi Saito, and Kuniko Saito. "A Dataset for Document Visual Question Answering on Multiple Images". In Proc. of AAAI. 2023.
 
 > We introduce a new document VQA dataset, SlideVQA, for tasks wherein given a slide deck composed of multiple slide images and a corresponding question, a system selects a set of evidence images and answers the question.
 
@@ -17,7 +17,7 @@ For users who wants to extract OCR with Tesseract, please install [Google Tesser
 ## 1. Download slide images
 Download 2,619 slide decks from [SlideShare](https://www.slideshare.net/). Each deck is composed of 20 slide images.
 ```
-python download_slides_slideshare.py --target_dir TARGET_DIR --split SPLIT --sleep_time 1
+python download_slides_slideshare.py --target_dir TARGET_DIR --split SPLIT --sleep_time 5
 ```
 
 ## 2. OCR (Google Cloud Vision API)

@@ -30,7 +30,12 @@ In consideration of these premises, and the mutual promises and conditions in th
  
 EXHIBIT A
 The software and related data include the following files,
-- annotations
+- annotations/qa/train.jsonl
+- annotations/qa/dev.jsonl
+- annotations/qa/test.jsonl
+- annotations/bbox/train.jsonl
+- annotations/bbox/dev.jsonl
+- annotations/bbox/test.jsonl
 - download_slides_slideshare.py
 - extract_ocr_tesseract.py
 - extract_ocr_visionAPI.py

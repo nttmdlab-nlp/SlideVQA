@@ -20,7 +20,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--target_dir', type=str, default='annotations/bbox')
     parser.add_argument('--split', type=str, default='dev')
-    parser.add_argument('--sleep_time', type=float, default=1)
+    parser.add_argument('--sleep_time', type=float, default=5)
     args = parser.parse_args()
 
     with open(f'{args.target_dir}/{args.split}.jsonl', 'r') as f:

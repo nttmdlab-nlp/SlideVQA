@@ -1,5 +1,5 @@
 # SlideVQA
-This repository includes the SlideVQA dataset introduced by the following paper. Ryota Tanaka, Kyosuke Nishida, Kosuke Nishida, Taku Hasegawa, Itsumi Saito, and Kuniko Saito. "A Dataset for Document Visual Question Answering on Multiple Images". In Proc. of AAAI. 2023.
+This repository includes the SlideVQA dataset introduced by the following paper: Ryota Tanaka, Kyosuke Nishida, Kosuke Nishida, Taku Hasegawa, Itsumi Saito, and Kuniko Saito. "A Dataset for Document Visual Question Answering on Multiple Images". In Proc. of AAAI. 2023.
 
 > We introduce a new document VQA dataset, SlideVQA, for tasks wherein given a slide deck composed of multiple slide images and a corresponding question, a system selects a set of evidence images and answers the question.
 

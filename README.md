@@ -61,11 +61,14 @@ SlideVQA provides annotated 14,484 QA pairs and 890,945 bounding boxes.
       "image_urls": URL list of slide deck in slideshare,
       "category": category name of slide deck defined in slideshare,
       "bboxes": [
-                  {
-                    "bbox_id": identification of the bounding box,
-                    "class": class name of the bounding box,
-                    "bbox": [x1, y1, w, h]
-                  }
+                  [
+                  "page_number",
+                     [{
+                       "bbox_id": identification of the bounding box,
+                       "class": class name of the bounding box,
+                       "bbox": [x1, y1, w, h]
+                     }]
+                  ]
                 ]
     }
 </pre>

@@ -19,6 +19,7 @@ Download 2,619 slide decks from [SlideShare](https://www.slideshare.net/). Each 
 ```
 python download_slides_slideshare.py --target_dir TARGET_DIR --split SPLIT --sleep_time 5
 ```
+Some images could not be downloaded due to 404 error. If you want to obtain all images, please contact me (ryouta.tanaka.rg[at]hco.ntt.co.jp).
 
 ## 2. OCR (Google Cloud Vision API)
 Google Cloud Vision API is a paid OCR software, and we used the OCR resutls obtained from this OCR software in our main experiments.

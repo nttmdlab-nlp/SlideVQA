@@ -6,7 +6,7 @@ This repository includes the SlideVQA dataset introduced by the following paper:
 ![Figure 1 from paper](example.png)
 
 # 📢 News
-- [2025.03.26] Our SlideVQA dataset is available on 🤗[HuggingFace](https://huggingface.co/datasets/NTT-hil-insight/slidevqa).
+- [2025.03.26] Our SlideVQA dataset is available on 🤗[HuggingFace](https://huggingface.co/datasets/NTT-hil-insight/SlideVQA).
 
 
 # Software installation
@@ -16,14 +16,14 @@ pip install -r requirements.txt
 For users who want to extract OCR with Tesseract, please install [Google Tesseract OCR](https://github.com/tesseract-ocr/tesseract).
 
 # Get Started
-If you want to manually collect slide images along with their corresponding OCR text, follow these steps. Alternatively, you can access the SlideVQA dataset (excluding OCR and bbox data) on 🤗[HuggingFace](https://huggingface.co/datasets/NTT-hil-insight/slidevqa).
+If you want to manually collect slide images along with their corresponding OCR text, follow these steps. Alternatively, you can access the SlideVQA dataset (excluding OCR and bbox data) on 🤗[HuggingFace](https://huggingface.co/datasets/NTT-hil-insight/SlideVQA).
 
 ## 1. Download slide images
 Download 2,619 slide decks from [SlideShare](https://www.slideshare.net/). Each deck is composed of 20 slide images.
 ```
 python download_slides_slideshare.py --target_dir TARGET_DIR --split SPLIT --sleep_time 5
 ```
-Some images could not be downloaded due to a 404 error. If you want to obtain all images, please download them through 🤗[HuggingFace](https://huggingface.co/datasets/NTT-hil-insight/slidevqa).
+Some images could not be downloaded due to a 404 error. If you want to obtain all images, please download them through 🤗[HuggingFace](https://huggingface.co/datasets/NTT-hil-insight/SlideVQA).
 
 ## 2. OCR (Google Cloud Vision API)
 Google Cloud Vision API is a paid OCR software, and we used the OCR results obtained from this OCR software in our main experiments.
